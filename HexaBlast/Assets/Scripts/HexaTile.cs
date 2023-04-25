@@ -28,6 +28,7 @@ public abstract class HexaTile : MonoBehaviour
     private void OnClickBtn()
     {
         RevealTile();
+        Debug.Log("clicked");
     }
 
     private void RevealTile()
